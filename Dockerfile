@@ -1,2 +1,2 @@
-FROM scratch
+FROM debian:latest
 CMD ['ls -l $HOME']
