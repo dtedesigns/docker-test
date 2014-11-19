@@ -1,2 +1,2 @@
 FROM debian:latest
-CMD ['ls', '-l', '$HOME']
+CMD ['sh', '-c', 'ls', '-l', '$HOME']
